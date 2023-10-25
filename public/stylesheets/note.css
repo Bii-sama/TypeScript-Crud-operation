@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://static.timesofisrael.com/www/uploads/2021/10/F160907EIFF05.jpg");
+    font-family: "Dancing Script";
+  }
+
+  header{
+    width: 100%;
+  
+  }
+  
+  nav{
+    width: 500px;
+    margin-left: 900px;
+  }
+  
+  nav ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  nav ul li{
+    list-style: none;
+    padding: 7px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  
+  }
+  
+
+  main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  main #a{
+     width: 50%;
+  }
+   
+  main #a textarea{
+    margin-left: 150px;
+    margin-top: 70px;
+    outline: none;
+    border-radius: 7px;
+    box-shadow:  10px 10px 25px 10px #404040;
+    font-family: "Dancing Script";
+    font-size: 18px;
+  }
+
+  main #a button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: "Dancing Script";
+    width: 300px;
+    font-size: 18px;
+    border-radius: 7px;
+    border-style: none;
+  }
+
+  main #b{
+    width: 50%
+  }
+
+  main #b table{
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  
+  main #b table th{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    padding: 5px;
+  }
+  main #b table td{
+    padding: 5px;
+  }
+  
+  
+  main #b table tr{
+    text-align: center;
+   }
+
+main #b table td button{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+  
+  
